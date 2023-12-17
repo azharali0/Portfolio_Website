@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+.hero{
+    position:relative;
+    width: 100%;
+    height:100vh ;
+    background: rgb(255, 253, 253);
+}
+
+nav{
+    display: flex; 
+    width:80%;
+    padding: 20px 0;
+    margin: left 0%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 20px;
+}
+
+.logo{
+    margin-left: 10%;
+    height: 10%;
+    width: 20%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:red;
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom:20px;
+}
+
+span{
+    color: rgb(255, 255, 0);
+}
+.detel p{
+    color: #555;
+    line-height: 22px;
+}
+
+.detel a{
+    background:#212121;
+    padding: 10px 18px;
+    text-decoration:none;
+    font-weight: bold;
+    color:#fff;
+    display:inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+}
+
+.detel a:hover{
+    height:auto;
+}
+
+.images{
+    width: 15%;
+    height: 75%;
+    position:absolute;
+    bottom:0;
+    right: 100px;
+    margin: right 44px;
+}
+
+/* .boy{
+ width: 80%;
+ height: 45%;
+}*/
+
+.images img{
+    height: 87%;
+    position: absolute;
+    left: 50px;
+    bottom:0;
+    transform :translateX(-70%);
+    transition:bottom 3s, left 3s, right 3s;
+    margin: left 34px;
+}
+.boy{
+    height: 55px;
+}
+
+.images:hover .shape{
+    bottom:44px;
+    height:100%;
+}
+.images:hover .boy{
+    left: 66px;
+}
